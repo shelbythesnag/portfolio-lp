@@ -1,0 +1,210 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.lpwrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 24px;
+    padding: 0px 10px 0px 10px;
+    width: 90%;
+}
+
+.navbar div{
+    flex: 1 1 0;
+    background-color: #1F2937;
+
+}
+.logo{
+    font-size: 32px;
+    text-align: left;
+    margin: 0px 0px 0px 72px;
+    padding: 0px 0px 0px 36px;
+    width: auto;
+}
+.links{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin: 0px 72px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 90%;
+}
+.links a{
+    flex: 1;
+}
+
+.container.hero{
+    background-color: #1F2937;
+    color: white;
+}
+
+.header h2{
+    color:#1f2937;
+    font-size: 42px;
+    text-align: center
+}
+
+.container{
+    height: 300px;;
+    flex: 1;
+}
+
+.centered{
+    display: flex;
+    text-align: center;
+    padding: 64px 128px 128px 128px;
+}
+.centered.info{
+    flex-direction: column;
+}
+.centered.hero{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+}
+
+.centered.hero div{
+    flex: 1;
+}
+.col1{
+    text-align: left;
+}
+.contentwrapper{
+
+}
+.col2{
+    align-self: center;
+    margin: 48px 0px 0px 0px;
+}
+.heroheadline{
+    font-size: 72px;
+    margin: 48px 0px 0px 0px;
+}
+.herotext{
+    color:#e5e7eb;
+    font-size: 24px;
+}
+.herobutton{
+    justify-content: center;
+    color: white;
+    background-color: #3882f6;
+    font-size: 20px;
+
+    border: 2px solid #3882f6;
+    padding: 8px;
+    width: 180px;
+    border-radius: 8px;
+}
+
+.heroimg{
+    height: 300px;
+    width: 450px;
+}
+
+.centered div{
+    flex: 1;
+}
+.benefitsflexbox{
+    display: flex;
+    flex-direction: row;
+}
+.benefitsflexbox div{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.benefitsflexbox div img{
+    flex: 1;
+    height: 150px;
+    width: 150px;
+    align-self: center;
+    border-radius: 12px;
+    margin: 36px 0px 0px 0px;
+}
+
+.benefitsflexbox div p{
+    width: 150px;
+    align-self: center;
+}
+
+.container.quote{
+    flex: 1;
+    background-color: #e5e7eb;
+}
+.boxquote{
+    margin: 128px;
+}
+.quote h2{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 64px;
+}
+.quote p{
+    text-align: right;
+    text-decoration-thickness: 5px;
+    margin: 0px 48px;
+}
+
+.container.cta{
+    margin: 64px;
+    background-color: white;
+}
+
+.cta {
+    text-align: center;
+    display: flex;
+    flex: 1;
+    background-color: #3882f6;
+    padding: 64px;
+    gap: 16px;
+    height: 64px;
+}
+
+.cta div{
+    flex: 1;
+    flex-direction: row;
+    align-self: center;
+    border-radius: 8px;
+
+}
+
+.cta-text{
+    text-align: left;
+    padding: 0px 0px 0px 50px
+}
+
+.cta-button{
+}
+
+.cta-button button{
+    justify-content: center;
+    color: white;
+    background-color: #3882f6;
+    font-size: 20px;
+
+    border: 2px solid white;
+    padding: 8px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px 0px 10px 0px
+}
